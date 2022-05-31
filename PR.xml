@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <titulo>Resolução do teste rpcw-2022 em <url>https://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/fichas/rpcw-2022-normal.html</url></titulo>
+        <data>31-05-2022</data>
+        <autor>
+            <id>pg47483</id>
+            <nome>Maria José Costa Ramos</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+    <resolucoes>
+        <ex1>
+            <data_cleansing>
+                O ficheiro mapa.json foi dividio em dois, para dar origem a duas coleções distintas: cidades e ligações.
+                O campo "id" dos registos foi substitiído por "_id". No caso das cidades foi feito um script para essa troca.
+            </data_cleansing>
+            <setup_mongo> 
+                <terminal>sudo mongod --dbpath ~/data/db --fork --logpath /var/log/mongodb/mongod.log</terminal>
+            </setup_mongo>
+            <imports>
+                <ligacoes>mongoimport -d MAPA2022 -c ligacoes ligacoes.json --jsonArray </ligacoes>
+                <cidades>mongoimport -d MAPA2022 -c cidades cidades_limpo.json --jsonArray </ligacoes>
+            </imports>
+            <correr_app>
+                <comando>npm i</comando>
+                <comando>npm i mongoose --save</comando>
+                <comando>npm start</comando>
+            </correr_app>
+            
+        </ex1>
+        <ex2>
+            <pedido_token>
+                <pedido>POST http://clav-api.di.uminho.pt/v2/users/login</pedido>
+                <body_pedido>{"username": "rpcw2022@gmail.com", "password":"2022"}</body_pedido>
+                <token>eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOTRlY2VhNmI1ZDVjMjQ3NmNmMDhiMSIsImxldmVsIjozLjUsImVudGlkYWRlIjoiZW50X0EzRVMiLCJlbWFpbCI6InJwY3cyMDIyQGdtYWlsLmNvbSIsImlhdCI6MTY1NDAxNDE5NSwiZXhwIjoxNjU0MDQyOTk1fQ.a43yg6yoVpoxHy1S57jG5QfY2iSqHACrFy2G6O4l6d-kJOB2liCgi4rFwf5uKch--CuQGKav2BLnjm48T80RpNUS9b-ay2IHwswiQVm2TbgXAADlDJGAvNbXZvFRotGByc2Hq0cSxwpCrinTTpJYqaleoCrQuv2NVnT8f3Z5iyjJVm3SCRCxpKmChbQdHv-IzsSC1DxudN686v_rUHByUJtbLr18A8OHaos8wFY-I-E9_3wrk3N31-djWlTkIoDakkLeJg7QTAn7sUAAOcFN12z91ARohqduietSjg9r18g1_-EDkX_xJHXTYb5fCUf9nY5UZDyDJgi4ThUZ7xHzvA</token>
+            </pedido_token>
+            
+            <alinea_a>
+                <resultado>ex1_a.json</resultado>
+            </alinea_a>
+            <alinea_b>
+                <resultado>ex1_b.json</resultado>
+            </alinea_b>
+            <alinea_c>
+                <resultado>ex1_c.json</resultado>
+            </alinea_c>
+            <alinea_d>
+                <resultado>ex1_d.json</resultado>
+            </alinea_d>
+
+            <correr_app>
+                <comando>npm i</comando>
+                <comando>npm i axios --save</comando>
+                <comando>npm start</comando>
+            </correr_app>
+        </ex2>
+

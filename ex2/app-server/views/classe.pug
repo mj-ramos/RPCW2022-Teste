@@ -1,0 +1,47 @@
+extends layout 
+
+block content 
+    a(href='/') Voltar à página Inicial
+
+    h1 Classe #{classe.codigo}
+
+    p 
+        b Nível:
+        | #{classe.nivel} 
+
+    p 
+        b Código:
+        | #{classe.codigo} 
+
+    p 
+        b Título:
+        | #{classe.titulo} 
+
+    p 
+        b Descrição:
+        | #{classe.descricao} 
+
+    p 
+        b Status:
+        | #{classe.status}
+
+    if (classe.filhos.length>0)
+        p 
+            b Filhos:
+            ul
+                for filho in classe.filhos 
+                    li  
+                        p Código: 
+                            a(href='/classes/c' + filho.codigo) #{filho.codigo}
+                        p Título: #{filho.titulo}
+
+    if (classe.nivel == '3')
+        p 
+            b Termos de índice:
+            ul
+                for ind in classe.termosInd 
+                    li  
+                        p idTI: #{ind.idTI}
+                        p Termo: 
+                            a(href='/termosIndice') #{ind.termo}
+

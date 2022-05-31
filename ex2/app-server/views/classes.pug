@@ -1,0 +1,16 @@
+extends layout 
+
+block content 
+    a(href='/') Voltar à página Inicial
+
+    h1 Classes
+    ul
+        for item in classes
+            li 
+                p 
+                    b Título:  
+                    | #{item.titulo}
+                p 
+                    b Código: 
+                    a(href='classes/c' + item.codigo) #{item.codigo}
+

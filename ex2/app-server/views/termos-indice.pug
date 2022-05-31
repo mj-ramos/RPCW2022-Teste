@@ -1,0 +1,20 @@
+extends layout 
+
+block content 
+    p
+        a(href='/') Voltar à página Inicial
+    h1 Termos de índice
+    
+    table 
+        tr
+            th Termo
+            th Id classe 
+            th Nome Classe
+
+        each termo in termos 
+            tr
+                td= termo.termo
+                td 
+                    a(href='/classes/c' + termo.idClasse) #{termo.idClasse}
+                td
+                    a(href='/classes/c' + termo.idClasse) #{termo.tituloClasse}                    

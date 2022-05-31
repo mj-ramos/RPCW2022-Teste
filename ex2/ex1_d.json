@@ -1,0 +1,197 @@
+{
+    "n_processos_relacionados_750.20.600": 24,
+    "processosRelacionados": [
+        {
+            "codigo": "750.30.300",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eAntecessorDe",
+            "idRel": "eAntecessorDe",
+            "titulo": "Elaboração de instrumentos de avaliação de aprendizagens",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c750.30.300",
+            "status": "A"
+        },
+        {
+            "codigo": "750.30.600",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eAntecessorDe",
+            "idRel": "eAntecessorDe",
+            "titulo": "Aplicação de instrumentos de avaliação de aprendizagens",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c750.30.600",
+            "status": "A"
+        },
+        {
+            "codigo": "250.20.400",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eCruzadoCom",
+            "idRel": "eCruzadoCom",
+            "titulo": "Controlo de assiduidade e pontualidade",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c250.20.400",
+            "status": "A"
+        },
+        {
+            "codigo": "250.20.605",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eCruzadoCom",
+            "idRel": "eCruzadoCom",
+            "titulo": "Acompanhamento dos trabalhadores em situação de requalificação",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c250.20.605",
+            "status": "A"
+        },
+        {
+            "codigo": "250.20.800",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eCruzadoCom",
+            "idRel": "eCruzadoCom",
+            "titulo": "Avaliação individual do desempenho",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c250.20.800",
+            "status": "A"
+        },
+        {
+            "codigo": "750.10.600",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eCruzadoCom",
+            "idRel": "eCruzadoCom",
+            "titulo": "Controlo de assiduidade de alunos ou formandos",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c750.10.600",
+            "status": "A"
+        },
+        {
+            "codigo": "750.10.602",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eCruzadoCom",
+            "idRel": "eCruzadoCom",
+            "titulo": "Integração e acompanhamento de alunos com necessidades educativas especiais",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c750.10.602",
+            "status": "A"
+        },
+        {
+            "codigo": "750.20.300",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eCruzadoCom",
+            "idRel": "eCruzadoCom",
+            "titulo": "Produção e seleção de recursos didático-pedagógicos",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c750.20.300",
+            "status": "A"
+        },
+        {
+            "codigo": "750.30.300",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eCruzadoCom",
+            "idRel": "eCruzadoCom",
+            "titulo": "Elaboração de instrumentos de avaliação de aprendizagens",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c750.30.300",
+            "status": "A"
+        },
+        {
+            "codigo": "750.30.600",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eCruzadoCom",
+            "idRel": "eCruzadoCom",
+            "titulo": "Aplicação de instrumentos de avaliação de aprendizagens",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c750.30.600",
+            "status": "A"
+        },
+        {
+            "codigo": "800.10.604",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eCruzadoCom",
+            "idRel": "eCruzadoCom",
+            "titulo": "Realização de traduções",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c800.10.604",
+            "status": "A"
+        },
+        {
+            "codigo": "800.10.605",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eCruzadoCom",
+            "idRel": "eCruzadoCom",
+            "titulo": "Realização de transcrições",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c800.10.605",
+            "status": "A"
+        },
+        {
+            "codigo": "150.20.101",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eSintetizadoPor",
+            "idRel": "eSintetizadoPor",
+            "titulo": "Planeamento estratégico de atividades",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c150.20.101",
+            "status": "A"
+        },
+        {
+            "codigo": "150.20.300",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eSintetizadoPor",
+            "idRel": "eSintetizadoPor",
+            "titulo": "Avaliação de atividades",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c150.20.300",
+            "status": "A"
+        },
+        {
+            "codigo": "250.20.001",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eSintetizadoPor",
+            "idRel": "eSintetizadoPor",
+            "titulo": "Registo biográfico de trabalhadores",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c250.20.001",
+            "status": "A"
+        },
+        {
+            "codigo": "750.20.301",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eSintetizadoPor",
+            "idRel": "eSintetizadoPor",
+            "titulo": "Distribuição de atividades de ensino ou formação",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c750.20.301",
+            "status": "A"
+        },
+        {
+            "codigo": "750.30.601",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eSintetizadoPor",
+            "idRel": "eSintetizadoPor",
+            "titulo": "Processamento e comunicação de resultados de avaliação",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c750.30.601",
+            "status": "A"
+        },
+        {
+            "codigo": "450.10.441",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eSucessorDe",
+            "idRel": "eSucessorDe",
+            "titulo": "Reconhecimento de títulos de profissões regulamentadas",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c450.10.441",
+            "status": "A"
+        },
+        {
+            "codigo": "450.10.444",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eSucessorDe",
+            "idRel": "eSucessorDe",
+            "titulo": "Reconhecimento de requisitos e competência técnica a entidades",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c450.10.444",
+            "status": "A"
+        },
+        {
+            "codigo": "750.10.002",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eSucessorDe",
+            "idRel": "eSucessorDe",
+            "titulo": "Processamento de matrículas ou inscrições no ensino ou em formação",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c750.10.002",
+            "status": "A"
+        },
+        {
+            "codigo": "750.20.001",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eSucessorDe",
+            "idRel": "eSucessorDe",
+            "titulo": "Conceção, revisão e extinção de currículos e planos de estudos",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c750.20.001",
+            "status": "A"
+        },
+        {
+            "codigo": "750.20.002",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eSucessorDe",
+            "idRel": "eSucessorDe",
+            "titulo": "Conceção, revisão e extinção de planos de ações de formação",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c750.20.002",
+            "status": "A"
+        },
+        {
+            "codigo": "750.20.300",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eSucessorDe",
+            "idRel": "eSucessorDe",
+            "titulo": "Produção e seleção de recursos didático-pedagógicos",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c750.20.300",
+            "status": "A"
+        },
+        {
+            "codigo": "500.10.301",
+            "tipoRel": "http://jcr.di.uminho.pt/m51-clav#eSuplementoPara",
+            "idRel": "eSuplementoPara",
+            "titulo": "Realização de fiscalização",
+            "id": "http://jcr.di.uminho.pt/m51-clav#c500.10.301",
+            "status": "A"
+        }
+    ]
+}
