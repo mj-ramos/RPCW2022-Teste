@@ -11,17 +11,14 @@ router.get('/distritos', function(req, res, next) {
   Cidade.lista_cidades()
   .then(dados => {
     var distritos = {}
-    var i=0
-    while (i<dados.length) {
-      var cidade = dados[i]
+    dados.forEach(cidade => {
       if (!(cidade.distrito in distritos)) {
-        distritos[cidade.distrito] = [{"cidade":cidade.nome,"id_cidade":cidade._id}]
+        console.log(distritos)
       } else {
         distritos[cidade.distrito].append({"cidade":cidade.nome,"id_cidade":cidade._id})
       }
-      i +=1
-    }
-    
+    })  
+    console.log(distritos)
     res.status(200).jsonp(distritos)
   })
   .catch(erro => res.status(500).jsonp(erro))
